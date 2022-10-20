@@ -13,6 +13,4 @@ class Category {
   }
 }
 
-
-
 export { Category };
