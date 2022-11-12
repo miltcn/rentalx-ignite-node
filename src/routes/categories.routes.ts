@@ -14,7 +14,6 @@ categoriesRoutes.post("/", (request, response) => {
 
 categoriesRoutes.get("/", (request, response) => {
   const { file } = request;
-  console.log(file);
   return listCategoriesController.handle(request, response);
 });
 
